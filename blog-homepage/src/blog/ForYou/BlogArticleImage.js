@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './Blog.css';
+import '../Blog.css';
 
-class BlogArticleShortImage extends Component {
+class BlogArticleImage extends Component {
   static propTypes = {
     imageSrc: PropTypes.string.isRequired,
     altText: PropTypes.string.isRequired
@@ -10,8 +10,8 @@ class BlogArticleShortImage extends Component {
 
   render() {
     const { imageSrc, altText } = this.props;
-    return <img className="BlogArticleShortImage" src={imageSrc} alt={altText} />;
+    return <img className="BlogArticleImage" src={imageSrc} alt={altText} />;
   }
 }
 
-export default BlogArticleShortImage;
+export default BlogArticleImage;

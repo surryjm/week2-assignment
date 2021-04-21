@@ -1,6 +1,6 @@
 import './App.css';
-import ForYou from './blog/ForYou';
-import InCaseYouMissedIt from './blog/InCaseYouMissedIt';
+import ForYou from './blog/ForYou/ForYou';
+import InCaseYouMissedIt from './blog/MissedArticles/InCaseYouMissedIt';
 
 function App() {
   return (

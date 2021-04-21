@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Blog.css';
+import '../Blog.css';
 import BlogArticle from './BlogArticle';
 
 class ForYou extends Component {
@@ -14,4 +14,4 @@ class ForYou extends Component {
   }
 }
 
-export default ForYou;
+export default ForYou; 
