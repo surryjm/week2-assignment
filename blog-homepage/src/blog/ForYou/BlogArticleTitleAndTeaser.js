@@ -14,7 +14,7 @@ class BlogArticleTitleAndTeaser extends Component {
 
     return (
       <div>
-        <div className="AudioAndMemberPreview">
+        <div className="audioAndMemberPreview">
           <p>{hasAudioAvailable}</p>
           <p>{memberPreview}</p>
         </div>

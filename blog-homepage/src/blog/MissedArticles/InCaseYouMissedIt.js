@@ -7,7 +7,7 @@ class InCaseYouMissedIt extends Component {
   render() {
     return (
       <div className="InCaseYouMissedIt">
-        <h2 className="SectionHeader">In case you missed it</h2>
+        <h2 className="sectionHeader">In case you missed it</h2>
         <BlogArticleShort />
       </div>
     )

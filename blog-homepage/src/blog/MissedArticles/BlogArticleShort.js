@@ -15,11 +15,11 @@ class BlogArticleShort extends Component {
 
   render() {
     let missedArticlesList = missedArticles;
-    let displayPreviewIcon = <span><FontAwesomeIcon className="PreviewOrAudioIcon" icon={faStar} /><span>Member preview</span></span>;
-    let displayAudioIcon = <span><FontAwesomeIcon className="PreviewOrAudioIcon" icon={faVolumeUp} /><span>Audio available</span></span>;
+    let displayPreviewIcon = <span><FontAwesomeIcon className="previewOrAudioIcon" icon={faStar} /><span>Member preview</span></span>;
+    let displayAudioIcon = <span><FontAwesomeIcon className="previewOrAudioIcon" icon={faVolumeUp} /><span>Audio available</span></span>;
 
     return (
-      <div className="BlogContainerShort">
+      <div className="blogContainerShort">
         {missedArticlesList.map((data, key) => {
 
         let displayPreview = data.memberPreview ? displayPreviewIcon : '';
@@ -31,7 +31,7 @@ class BlogArticleShort extends Component {
                 imageSrc={data.image} 
                 altText={data.title} 
               />
-              <div className="TitleAndTeaserShort">
+              <div className="titleAndTeaserShort">
                 <BlogArticleShortTitleAndTeaser
                   hasAudioAvailable={displayAudio}
                   memberPreview={displayPreview}

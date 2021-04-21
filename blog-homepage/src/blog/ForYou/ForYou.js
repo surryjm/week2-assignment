@@ -7,7 +7,7 @@ class ForYou extends Component {
   render() {
     return (
       <div className="ForYou">
-        <h2 className="SectionHeader">For you</h2>
+        <h2 className="sectionHeader">For you</h2>
         <BlogArticle />
       </div>
     )

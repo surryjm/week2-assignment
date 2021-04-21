@@ -18,11 +18,11 @@ class BlogArticleAuthor extends Component {
 
     return (
       <div className="BlogArticleAuthor">
-        <div className="AuthorAndImage">
-          <img className="AuthorImage" src={imageSrc} alt={name} />
-          <div className="AuthorDateMin">
-            <p className="AuthorName">{name}</p>
-            <div className="DateAndMinToRead">
+        <div className="authorAndImage">
+          <img className="authorImage" src={imageSrc} alt={name} />
+          <div className="authorDateMin">
+            <p className="authorName">{name}</p>
+            <div className="dateAndMinToRead">
               <p>{monthDay} - {minToRead} min read</p> 
             </div>
           </div>

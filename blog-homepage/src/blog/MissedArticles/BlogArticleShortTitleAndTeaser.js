@@ -12,8 +12,8 @@ class BlogArticleShortTitleAndTeaser extends Component {
   render() {
     const { title, teaser, hasAudioAvailable, memberPreview } = this.props;
     return (
-      <div className="TitleTeaserShortContainer">
-        <div className="AudioAndMemberPreview">
+      <div className="titleTeaserShortContainer">
+        <div className="audioAndMemberPreview">
           <p>{hasAudioAvailable}</p>
           <p>{memberPreview}</p>
         </div>

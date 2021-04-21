@@ -1,11 +1,11 @@
-.BlogContainer {
+.blogContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   grid-template-rows: 1fr 1fr;
 }
 
-.BlogContainerShort {
+.blogContainerShort {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
@@ -40,7 +40,7 @@
   height: 100px;
 }
 
-.TitleAndTeaser {
+.titleAndTeaser {
   padding: 0 20px 0 20px;
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@
   width: 100%;
 }
 
-.TitleAndTeaserShort {
+.titleAndTeaserShort {
   padding: 0 20px 0 20px;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,7 @@
   height: 100%;
 }
 
-.TitleTeaserShortContainer {
+.titleTeaserShortContainer {
   margin-bottom: 1rem;
 }
 
@@ -67,37 +67,37 @@
   margin-bottom: 1rem;
 }
 
-.AuthorAndImage {
+.authorAndImage {
   display: flex;
   flex-direction: row;
   height: 50px;
 }
 
-.AuthorImage {
+.authorImage {
   border-radius: 50%;
   width: 50px;
   height: 50px;
 }
 
-.AuthorDateMin {
+.authorDateMin {
   margin: .30rem 0 0 .5rem;
 }
 
-.DateAndMinToRead {
+.dateAndMinToRead {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 10rem;
 }
 
-.DateAndMinToReadShort {
+.dateAndMinToReadShort {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 10rem;
 }
 
-.AuthorName {
+.authorName {
   margin-bottom: .5rem;
 }
 
@@ -119,18 +119,18 @@ h3 {
   margin: 3% 15% 0 15%;
 }
 
-.SectionHeader {
+.sectionHeader {
   border-bottom: 1px solid #dcdcdc;
   padding-bottom: 1rem;
 }
 
-.AudioAndMemberPreview > p {
+.audioAndMemberPreview > p {
   color: #808080;
   font-size: .8rem;
   padding: .25rem 0 .25rem 0;
 }
 
-.PreviewOrAudioIcon {
+.previewOrAudioIcon {
   font-size: .6rem;
   margin-right: .5rem;
 }

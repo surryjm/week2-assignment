@@ -15,11 +15,11 @@ class BlogArticle extends Component {
 
   render() {
     let yourArticleList = yourArticles;
-    let displayPreviewIcon = <span><FontAwesomeIcon className="PreviewOrAudioIcon" icon={faStar} /><span>Member preview</span></span>;
-    let displayAudioIcon = <span><FontAwesomeIcon className="PreviewOrAudioIcon" icon={faVolumeUp} /><span>Audio available</span></span>;
+    let displayPreviewIcon = <span><FontAwesomeIcon className="previewOrAudioIcon" icon={faStar} /><span>Member preview</span></span>;
+    let displayAudioIcon = <span><FontAwesomeIcon className="previewOrAudioIcon" icon={faVolumeUp} /><span>Audio available</span></span>;
 
     return (
-      <div className="BlogContainer">
+      <div className="blogContainer">
         {yourArticleList.map((data, key) => {
 
           let displayPreview = data.memberPreview ? displayPreviewIcon : '';
@@ -31,7 +31,7 @@ class BlogArticle extends Component {
                 imageSrc={data.image} 
                 altText={data.title} 
               />
-              <div className="TitleAndTeaser">
+              <div className="titleAndTeaser">
                 <BlogArticleTitleAndTeaser 
                   hasAudioAvailable={displayAudio}
                   memberPreview={displayPreview}
