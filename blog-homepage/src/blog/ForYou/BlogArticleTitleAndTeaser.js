@@ -5,8 +5,8 @@ class BlogArticleTitleAndTeaser extends Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
     teaser: PropTypes.string.isRequired,
-    hasAudioAvailable: PropTypes.string,
-    memberPreview: PropTypes.string
+    hasAudioAvailable: PropTypes.object,
+    memberPreview: PropTypes.object
   };
 
   render() {

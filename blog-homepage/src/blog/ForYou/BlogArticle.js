@@ -22,8 +22,8 @@ class BlogArticle extends Component {
       <div className="blogContainer">
         {yourArticleList.map((data, key) => {
 
-          let displayPreview = data.memberPreview ? displayPreviewIcon : '';
-          let displayAudio = data.hasAudioAvailable ? displayAudioIcon : ''; 
+          let displayPreview = data.memberPreview.status ? displayPreviewIcon : <span></span>;
+          let displayAudio = data.hasAudioAvailable.status ? displayAudioIcon : <span></span>; 
 
           return (
             <div className="BlogArticle" key={key}>
@@ -33,7 +33,7 @@ class BlogArticle extends Component {
               />
               <div className="titleAndTeaser">
                 <BlogArticleTitleAndTeaser 
-                  hasAudioAvailable={displayAudio}
+                  hasAudioAvailable={displayAudio} 
                   memberPreview={displayPreview}
                   title={data.title} 
                   teaser={data.description}

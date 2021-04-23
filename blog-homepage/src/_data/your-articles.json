@@ -11,8 +11,8 @@
         },
         "postedDate": "2018-04-04T07:00:00.000Z",
         "minutesToRead": 8,
-        "hasAudioAvailable": false,
-        "memberPreview": false
+        "hasAudioAvailable": {"status": false},
+        "memberPreview": {"status": false}
     },
     {
         "title": "This Handy Chart Automatically Generates a Pitch for Your New Novel",
@@ -26,8 +26,8 @@
         },
         "postedDate": "2018-03-28T07:00:00.000Z",
         "minutesToRead": 2,
-        "hasAudioAvailable": false,
-        "memberPreview": false
+        "hasAudioAvailable": {"status": false},
+        "memberPreview": {"status": false}
     },
     {
         "title": "Do Something You Can't Win At",
@@ -41,8 +41,8 @@
         },
         "postedDate": "2018-03-30T07:00:00.000Z",
         "minutesToRead": 3,
-        "hasAudioAvailable": false,
-        "memberPreview": false
+        "hasAudioAvailable": {"status": false},
+        "memberPreview": {"status": false}
     },
     {
         "title": "Art as a Second Language",
@@ -56,7 +56,7 @@
         },
         "postedDate": "2018-03-27T07:00:00.000Z",
         "minutesToRead": 6,
-        "hasAudioAvailable": true,
-        "memberPreview": true
+        "hasAudioAvailable": {"status": true},
+        "memberPreview": {"status": true}
     }
 ]

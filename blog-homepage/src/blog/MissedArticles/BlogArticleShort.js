@@ -22,8 +22,8 @@ class BlogArticleShort extends Component {
       <div className="blogContainerShort">
         {missedArticlesList.map((data, key) => {
 
-        let displayPreview = data.memberPreview ? displayPreviewIcon : '';
-        let displayAudio = data.hasAudioAvailable ? displayAudioIcon : '';
+        let displayPreview = data.memberPreview.status ? displayPreviewIcon : <span></span>;
+        let displayAudio = data.hasAudioAvailable.status ? displayAudioIcon : <span></span>;
 
           return (
             <div className="BlogArticleShort" key={key}>

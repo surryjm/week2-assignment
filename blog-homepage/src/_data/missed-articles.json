@@ -11,8 +11,8 @@
         },
         "postedDate": "2018-04-22T07:00:00.000Z",
         "minutesToRead": 3,
-        "hasAudioAvailable": false,
-        "memberPreview": false
+        "hasAudioAvailable": {"status": false},
+        "memberPreview": {"status": false}
     },
     {
         "title": "10 Strategies for Creating Viral and Powerful Content",
@@ -26,8 +26,8 @@
         },
         "postedDate": "2018-04-22T07:00:00.000Z",
         "minutesToRead": 6,
-        "hasAudioAvailable": false,
-        "memberPreview": false
+        "hasAudioAvailable": {"status": false},
+        "memberPreview": {"status": false}
     },
     {
         "title": "Useful Tools for Writers",
@@ -41,7 +41,7 @@
         },
         "postedDate": "2018-04-21T07:00:00.000Z",
         "minutesToRead": 8,
-        "hasAudioAvailable": false,
-        "memberPreview": true
+        "hasAudioAvailable": {"status": false},
+        "memberPreview": {"status": true}
     }
 ]
